@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+:root{
+    --orange: #FF9C28;
+   --headr:#0e122980;
+
+}
+
+nav{
+    background-color: #272C3D;
+}
+main{
+    background-color: black;
+}
+.navbar{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   width: 1273px;
+   height: 70px;
+}
+ul{
+   display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+a{
+    color: white;
+    transition: 300ms ease;
+    font-size: 20px;
+    transition: 300ms ease;
+}
+a:hover{
+    color: var(--orange);
+    transition: 300ms ease;
+    font-size: 25px;
+    transition: 300ms ease;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.inp{
+    width: 241px;
+    height: 35px;
+    background-color:  #404864;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    width: 200px;
+    height: 25px;
+    background-color: #404864;
+    border: none;
+}
+.selekt{
+    background-color: black;
+    color: white;
+    width: 165.49px;
+   height: 35px;
+   border-radius: 5px;
+}
+.section1{
+    background-image: url(./imgs/Bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    height: 800px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+   text-align: center;
+   padding-bottom: 45px;
+   padding-top: 40px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    height: 298px;
+   
+}
+.into-card1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding-top: 30px;
+}
+.pp{
+    display: flex;
+    flex-wrap: wrap;
+    width: 323px;
+    height: 243px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 142px;
+    width: 1189px;
+    height: 928px;
+    background-color:  #1B1E27;
+    justify-content: center;
+    align-items: center;
+}
+.ftr{
+    background-color: #272C3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    background-color: #272C3D;
+    
+}
